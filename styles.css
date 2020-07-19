@@ -1,0 +1,83 @@
+
+
+html {
+    font-family: 'Helvetica';
+    background-image: url("Images/back.png");
+    background-size: cover;
+}
+
+header {
+    justify-content: space-between;
+    align-items: center;
+    background-color: #7a7a7a;
+    height: 100px;
+    text-align: center;
+    
+}
+
+* {
+  margin: 0px;
+    padding: 0px;
+    list-style: none;
+    text-decoration: none;
+}
+
+body {
+    margin: 20px;
+}
+
+.top {
+    display: grid; 
+    grid-template-columns: 10fr 1fr 1fr;
+    grid-template-rows: repeat(5, auto);
+    grid-gap: 5px;   
+}
+
+h1 {
+    font-size: 20px;
+    border-bottom: 2px solid darkred;
+    justify-self: start;
+}
+
+.mainTitle {
+    grid-column: 2;
+    grid-row: 2;
+}
+
+.main {
+    grid-column: 1;
+    grid: 3;
+    width: 305px;
+    height: 305px;
+}
+
+.main0ver {
+    grid-column: 1;
+    grid-row: 3;
+    align-self: end;
+}
+
+h4 {
+    background-color: darkred;
+    color: white;
+    display: inline-block;
+    font-size: 10px;
+    padding: 0px 5px;
+    
+}
+
+h2 {
+    color: white;
+    font-size: 15px;
+    margin-top: 3px;
+}
+
+.overLay {
+   margin: 0px 0px 5px 10px;
+}
+
+.editorTitle {
+    grid-column: 2;
+    grid-row: 2;
+    color: 
+}
