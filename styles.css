@@ -1,7 +1,8 @@
-
+@font-face {
+    
+}
 
 html {
-    font-family: 'Helvetica';
     background-image: url("Images/back.png");
     background-size: cover;
 }
@@ -35,8 +36,9 @@ body {
 
 h1 {
     font-size: 20px;
-    border-bottom: 2px solid darkred;
     justify-self: start;
+    background-color: #7a7a7a;
+    color: white;
 }
 
 .mainTitle {
@@ -51,25 +53,25 @@ h1 {
     height: 305px;
 }
 
+title {
+    
+}
+
+
+
+
 .main0ver {
     grid-column: 1;
     grid-row: 3;
     align-self: end;
 }
 
-h4 {
-    background-color: darkred;
-    color: white;
-    display: inline-block;
-    font-size: 10px;
-    padding: 0px 5px;
-    
-}
 
 h2 {
     color: white;
-    font-size: 15px;
-    margin-top: 3px;
+    font-size: 35px;
+    margin-top: 10px;
+    background-color: #7a7a7a;
 }
 
 .overLay {
