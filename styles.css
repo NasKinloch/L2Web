@@ -1,5 +1,6 @@
 @font-face {
-    
+    font-family: '28Dayslater';
+    src: url(fonts/28DaysLater.ttf);
 }
 
 html {
@@ -13,11 +14,10 @@ header {
     background-color: #7a7a7a;
     height: 100px;
     text-align: center;
-    
 }
 
 * {
-  margin: 0px;
+    margin: 0px;
     padding: 0px;
     list-style: none;
     text-decoration: none;
@@ -27,11 +27,11 @@ body {
     margin: 20px;
 }
 
-.top {
-    display: grid; 
-    grid-template-columns: 10fr 1fr 1fr;
-    grid-template-rows: repeat(5, auto);
-    grid-gap: 5px;   
+.main {
+    display: grid;
+    grid-template-columns: 10% 1fr 10%;
+    grid-template-rows: auto;
+    grid-gap: 5px;
 }
 
 h1 {
@@ -39,6 +39,8 @@ h1 {
     justify-self: start;
     background-color: #7a7a7a;
     color: white;
+    font-family: '28Dayslater';
+
 }
 
 .mainTitle {
@@ -46,24 +48,42 @@ h1 {
     grid-row: 2;
 }
 
-.main {
-    grid-column: 1;
-    grid: 3;
-    width: 305px;
-    height: 305px;
+
+
+.epic {
+    grid-column: 1/4;
+    font-family: '28Dayslater';
+    font-size: 6vw;
+    background-color: #7a7a7a;
+    width: 100%;
+    text-align: center;
 }
 
-title {
-    
+nav {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    background-color: #7a7a7a;
+}
+
+nav a {
+    background-color: black;
+    color: white;
+    font-family: '28Dayslater';
+    width: contain;
+    margin: 66% 0%;
+    border: 2px solid white;
+}
+
+.top {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 10px;
 }
 
 
-
-
-.main0ver {
-    grid-column: 1;
-    grid-row: 3;
-    align-self: end;
+img {
+    width: 100%;
 }
 
 
@@ -72,14 +92,24 @@ h2 {
     font-size: 35px;
     margin-top: 10px;
     background-color: #7a7a7a;
+    font-family: '28Dayslater';
 }
 
-.overLay {
-   margin: 0px 0px 5px 10px;
+.editor1 {
+        width: 100%;
+    height: ;
 }
 
 .editorTitle {
     grid-column: 2;
     grid-row: 2;
-    color: 
+    font-size: 35px;
+    margin-top: 10px;
+
+}
+
+.editorPara {
+    grid-column: 2;
+    grid-row: 2;
+    color:
 }
