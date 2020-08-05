@@ -84,6 +84,16 @@ nav a {
 
 img {
     width: 100%;
+
+}
+
+.tier {
+    width: 20px;
+    height: 35px;
+    display: flex;
+    flex-direction: column;
+    background-color: #7a7a7a;
+
 }
 
 
@@ -96,7 +106,7 @@ h2 {
 }
 
 .editor1 {
-        width: 100%;
+    width: 100%;
     height: ;
 }
 
