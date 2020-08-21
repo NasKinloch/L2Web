@@ -3,21 +3,20 @@
 <head>
     <meta charset="UTF-8">
     <link rel="stylesheet" href="styles.css">
-    <script href="code.js">
-        var options = ['How did you find this', "Free stuff in Severograd School", ""];
+    <title>DayZ</title>
+    <script>
+        var options = ['How did you find this?', "Free stuff in Severograd School", "Bruh"];
 
         function testing() {
             var rand = Math.floor(Math.random() * options.length)
-            document.getElementById('text') = options[rand];
+            document.getElementById('text').innerHTML = options[rand];
         }
-
-    </script>
-    <script>
 
     </script>
 </head>
 
 <body>
+
 
 
 
@@ -30,44 +29,57 @@
             <a href="Guns.html">Guns</a>
             <a href="Maps.html">Map</a>
             <!--            Pages-->
+
+
+            <button class="java" onclick="testing()"> 8-Ball</button>
+            <!--                java-->
+            <p id="text"></p>
         </nav>
         <div class="top">
             <div class="left">
                 <h1 class="editorTitle">What the colours of the map Contain</h1>
                 <!--                title-->
-                <h1 class="editorPara">
+
+                <div class="editorPara">
                     <!--                    Paragrapgh-->
+                    <img class="tier" src="Images/1.png" alt="numbers">
+                    <p>
+                        Low Tier: Normal Clothes, Low Calibre Ammo, Melee, Shotguns, Low Calibre Rifles and Pistols, Food
+                    </p>
+                    <!--                        Color Coded Number images-->
+                    <img class="tier" src="Images/2.png" alt="numbers">
+                    <p>
+                        Medium Tier: Hunting Clothing, Hunting Rifles, Canned Food
+                    </p>
+                    <!--                        Color Coded Number images-->
+                    <img class="tier" src="Images/3.png" alt="numbers">
+                    <p>
+                        High Tier: Police Gear, Police Grade Semi and Auto Rifles, Vehicles, Police Grade Weapon Parts
+                    </p>
+                    <!--                        Color Coded Number images-->
+                    <img class="tier" src="Images/4.png" alt="numbers">
+                    <p>
+                        Military Tier: Ghillies, Millitary Grade Semi and Auto Rifles, Millitary Grade SniperRifles, Military Gear and Clothes
+                    </p>
+                    <!--                        Color Coded Number images-->
+                    <img class="tier" src="Images/5.png" alt="numbers">
+                    <p>
+                        Loot Varys Between Tiers 1, 2 and 3
+                    </p>
+                    <!--                        Color Coded Number images-->
+
                     <div>
-                        <img class="tier" src="Images/1.png" alt="numbers">
-                        <p>Low Tier: Normal Clothes, Low Calibre Ammo, Melee, Shotguns, Low Calibre Rifles and Pistols, Food</p>
-                        <!--                        Color Coded Number images-->
-                        <img class="tier" src="Images/2.png" alt="numbers">
-                        <p>Medium Tier: Hunting Clothing, Hunting Rifles, Canned Food</p>
-                        <!--                        Color Coded Number images-->
-                        <img class="tier" src="Images/3.png" alt="numbers">
-                        <p>High Tier: Police Gear, Police Grade Semi and Auto Rifles, Vehicles, Police Grade Weapon Parts</p>
-                        <!--                        Color Coded Number images-->
-                        <img class="tier" src="Images/4.png" alt="numbers">
-                        <p>Military Tier: Ghillies, Millitary Grade Semi and Auto Rifles, Millitary Grade SniperRifles, Military Gear and Clothes</p>
-                        <!--                        Color Coded Number images-->
-                        <img class="tier" src="Images/5.png" alt="numbers">
-                        <p>Loot Varys Between Tiers 1, 2 and 3</p>
-                        <!--                        Color Coded Number images-->
+                        <!--                            Left-->
 
+                        <h1 class="editorTitle">The Weapons Tiers</h1>
+                        <!--                            title-->
+                        <p>Best most viable weapons from F worst to S Best</p>
+                        <!--                            description-->
+                        <img class="editor1" src="Images/Gun.png" alt="tiers">
+                        <!--                            Gun tiers image-->
 
-                        <div>
-                            <!--                            Left-->
-
-                            <h1 class="editorTitle">The Weapons Tiers</h1>
-                            <!--                            title-->
-                            <p>Best most viable weapons from F worst to S Best</p>
-                            <!--                            description-->
-                            <img class="editor1" src="Images/Gun.png" alt="tiers">
-                            <!--                            Gun tiers image-->
-
-                        </div>
                     </div>
-                </h1>
+                </div>
             </div>
             <div class="right">
                 <h1 class="editorTitle">Map Loot Tiers</h1>
@@ -78,9 +90,9 @@
                 <!--                title-->
                 <img class="main" src="Images/map.jfif" alt="map">
                 <!--                map loot Image-->
-                <button onclick="testing()"> 8-Ball</button>
-                <p id="text"></p>
-
 
             </div>
             <!--            Right-->
+        </div>
+    </div>
+</body>
