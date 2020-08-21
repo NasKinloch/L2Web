@@ -3,10 +3,14 @@
     src: url(fonts/28DaysLater.ttf);
 }
 
+/*Font*/
+
 html {
     background-image: url("Images/back.png");
     background-size: cover;
 }
+
+/*Background*/
 
 header {
     justify-content: space-between;
@@ -16,6 +20,8 @@ header {
     text-align: center;
 }
 
+/*Dayz title*/
+
 * {
     margin: 0px;
     padding: 0px;
@@ -23,9 +29,13 @@ header {
     text-decoration: none;
 }
 
+/*Alignment?*/
+
 body {
     margin: 20px;
 }
+
+/*left bar spacing*/
 
 .main {
     display: grid;
@@ -33,6 +43,8 @@ body {
     grid-template-rows: auto;
     grid-gap: 5px;
 }
+
+/*spacing between left and left bar*/
 
 h1 {
     font-size: 20px;
@@ -43,11 +55,14 @@ h1 {
 
 }
 
+/*Text*/
+
 .mainTitle {
     grid-column: 2;
     grid-row: 2;
 }
 
+/*titles*/
 
 
 .epic {
@@ -59,12 +74,16 @@ h1 {
     text-align: center;
 }
 
+/*box*/
+
 nav {
     width: 100%;
     display: flex;
     flex-direction: column;
     background-color: #7a7a7a;
 }
+
+/*left bar*/
 
 nav a {
     background-color: black;
@@ -75,17 +94,22 @@ nav a {
     border: 2px solid white;
 }
 
+/*left bar*/
+
 .top {
     display: grid;
     grid-template-columns: 1fr 1fr;
     grid-gap: 10px;
 }
 
+/*top*/
 
 img {
     width: 100%;
 
 }
+
+/*images size*/
 
 .tier {
     width: 20px;
@@ -96,6 +120,12 @@ img {
 
 }
 
+/*for tiers in guns page*/
+
+nav a:hover {
+    color: palegoldenrod;
+    border-radius: 10%;
+}
 
 h2 {
     color: white;
@@ -105,21 +135,23 @@ h2 {
     font-family: '28Dayslater';
 }
 
-.editor1 {
-    width: 100%;
-    height: ;
-}
+/*Text and box*/
 
 .editorTitle {
     grid-column: 2;
     grid-row: 2;
     font-size: 35px;
     margin-top: 10px;
-
 }
+
+/*titles*/
+
 
 .editorPara {
     grid-column: 2;
     grid-row: 2;
-    color:
+    color: ;
+    font-family: ;
 }
+
+/*paragraphs*/
